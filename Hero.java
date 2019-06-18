@@ -1,5 +1,15 @@
 public class Hero {
 
+    /*
+     * @Override public int compareTo(Hero hero) { return hero.getAge() -
+     * this.getAge(); };
+     * 
+     * Comparator<Hero> comparator = new Comparator<Hero>() {
+     * 
+     * @Override public int compare(Hero hero1, Hero hero2) { return
+     * hero1.getName().compareTo(hero2.getName()); } };
+     */
+
     // attributs
     private String name;
     private int age;
